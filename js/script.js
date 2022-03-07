@@ -7,7 +7,7 @@ function handleForm(event) {
 }
 form.addEventListener('submit', handleForm);
 
-document.querySelector("button").addEventListener("click", callDayOfWeek);
+document.querySelector(".btn").addEventListener("click", callDayOfWeek);
 
 
 function callDayOfWeek() {
@@ -17,7 +17,7 @@ function callDayOfWeek() {
 
 
   //Akan Names corresponding with Days and Date values
-  
+
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
