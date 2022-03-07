@@ -3,6 +3,16 @@ body {
   background-color: #EFFFFD;
 }
 
+h1 {
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
 .date {
   width: 400px;
+}
+
+.column {
+  margin-left: 0;
 }
