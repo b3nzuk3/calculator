@@ -1,7 +1,10 @@
 //   The function responsible for calculating the date Value.
 
 var form = document.getElementById("myForm");
-function handleForm(event) { event.preventDefault(); } 
+
+function handleForm(event) {
+  event.preventDefault();
+}
 form.addEventListener('submit', handleForm);
 
 document.querySelector("button").addEventListener("click", callDayOfWeek);
@@ -14,6 +17,7 @@ function callDayOfWeek() {
 
 
   //Akan Names corresponding with Days and Date values
+  
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -30,9 +34,20 @@ function callDayOfWeek() {
   var d = (day + y + Math.floor(y / 4) - Math.floor(y / 100) +
     Math.floor(year / 400) + Math.floor((31 * m) / 12)) % 7;
 
-if (dob !== 0){
+//data that stores the Boolean of the Gender checklist...
 
-  document.querySelector(".jump").innerHTML="your ready"
-}
+  var male = document.querySelector("#male").checked;
+  var female = document.querySelector("#female").checked;
+
+  if (dob !== 0 && male === true) {
+
+    document.querySelector(".jump").innerHTML = "Wow you were born on a  " + daysOfTheWeek[d] + " Your Akan Name is " + maleNames[d];
+
+  } else if (dob !== 0 && female === true) {
+
+    document.querySelector(".jump").innerHTML = "Wow you were born on a  " + daysOfTheWeek[d] + " Your Akan Name is " + femaleNames[d];
+  } else {
+    document.querySelector(".jump").innerHTML = "null";
+  }
 
 }
