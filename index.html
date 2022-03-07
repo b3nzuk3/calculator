@@ -30,9 +30,9 @@
 
 
   <section>
-    <div class="container">
+    <div class="container t-heading">
       <h1>Akan Names</h1>
-      <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+      <p>Akan names are derived from Ghanian culture. <br> Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. <br> Here are Ghanian day names.</p>
     </div>
 
   </section>
@@ -44,22 +44,34 @@
         <input type="date" class="form-control" id="dateInput" aria-describedby="emailHelp">
         <div id="nameHelp" class="form-text">We'll never share your Name with anyone else.</div>
       </div>
-      <div class="mb-3">
-        <input type="radio" id="male" name="fav_language">
-          <label for="html">Male</label>
+
+      <div class="container dot-box">
+        <div class="mb-3">
+          <input type="radio" id="male" name="fav_language">
+            <label for="html">Male</label>
+        </div>
+        <div class="mb-3">
+          <input type="radio" id="female" name="fav_language">
+            <label for="css">Female</label>
+        </div>
       </div>
-      <div class="mb-3">
-        <input type="radio" id="female" name="fav_language">
-          <label for="css">Female</label>
-      </div>
+
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
-    <h5>After Submitting your details,Your Akan name will be Displayed below</h5>
+    <h5>After Submitting your details,Your Akan name will be Displayed below:</h5>
+
     <div class="container">
+      <p class="results"></p>
+
+    </div>
+
+
+    <div class="container name-sec">
       <div class="row">
         <div class="col column">
           <h4>Males</h4>
+
           <p>Sunday: Kwasi <br>
 
             Monday: Kwadwo <br>
@@ -76,7 +88,7 @@
         </div>
         <div class="col column">
           <h4>Females</h4>
-          <p>Female
+          <p>
             Sunday: Akosua <br>
 
             Monday: Adwoa <br>

@@ -34,20 +34,20 @@ function callDayOfWeek() {
   var d = (day + y + Math.floor(y / 4) - Math.floor(y / 100) +
     Math.floor(year / 400) + Math.floor((31 * m) / 12)) % 7;
 
-//data that stores the Boolean of the Gender checklist...
+  //data that stores the Boolean of the Gender checklist...
 
   var male = document.querySelector("#male").checked;
   var female = document.querySelector("#female").checked;
 
   if (dob !== 0 && male === true) {
 
-    document.querySelector(".jump").innerHTML = "Wow you were born on a  " + daysOfTheWeek[d] + " Your Akan Name is " + maleNames[d];
+    document.querySelector(".results").innerHTML = "Wow! you were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + maleNames[d] + "!";
 
   } else if (dob !== 0 && female === true) {
 
-    document.querySelector(".jump").innerHTML = "Wow you were born on a  " + daysOfTheWeek[d] + " Your Akan Name is " + femaleNames[d];
+    document.querySelector(".results").innerHTML = "Wow! you were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + femaleNames[d] + "!";
   } else {
-    document.querySelector(".jump").innerHTML = "null";
+    document.querySelector(".results").innerHTML = "Please fill in all the details";
   }
 
 }
