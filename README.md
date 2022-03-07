@@ -1,1 +1,1 @@
-# calculator
+# Akan simulator
