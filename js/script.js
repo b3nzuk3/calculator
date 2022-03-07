@@ -1,5 +1,9 @@
 //   The function responsible for calculating the date Value.
 
+var form = document.getElementById("myForm");
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('submit', handleForm);
+
 document.querySelector("button").addEventListener("click", callDayOfWeek);
 
 
@@ -13,6 +17,9 @@ function callDayOfWeek() {
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+
+
   var dob = document.querySelector("#dateInput").value;
   var year = parseInt(dob.slice(0, 4));
   var month = parseInt(dob.slice(5, 7));
@@ -22,5 +29,10 @@ function callDayOfWeek() {
   var m = month + 12 * a - 2;
   var d = (day + y + Math.floor(y / 4) - Math.floor(y / 100) +
     Math.floor(year / 400) + Math.floor((31 * m) / 12)) % 7;
-  alert(d);
+
+if (dob !== 0){
+
+  document.querySelector(".jump").innerHTML="your ready"
+}
+
 }
