@@ -3,11 +3,24 @@ body {
   background-color: #EFFFFD;
 }
 
+hr {
+  width: 65%;
+  padding: 1px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /* HEADING SECTION STYLING   */
 h1 {
   font-family: 'Smooch Sans', sans-serif;
   font-weight: bold;
   font-size: 5rem;
+}
+
+.tree-png {
+  height: 300px;
+  width: 300px;
 }
 
 .t-heading {
@@ -21,9 +34,18 @@ p {
 }
 
 /* MIDDLE SECTION */
+form {
+  display: inline-block;
+  text-align: center;
+  border-radius: 8%;
+  background-color: #ECA6A6;
+  width: 500px;
+  padding: 25px;
+}
+
 h2 {
   font-family: 'Smooch Sans', sans-serif;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .date {
@@ -32,6 +54,10 @@ h2 {
 
 .dot-box {
   padding-top: 10px;
+}
+
+.form-x {
+  padding-bottom: 15px;
 }
 
 h5 {
@@ -65,4 +91,9 @@ h4 {
   font-family: 'Smooch Sans', sans-serif;
   font-size: 2.4rem;
   padding-top: 30px;
+}
+
+/* FOOTER */
+footer {
+  padding: 15px 15px;
 }

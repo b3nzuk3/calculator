@@ -46,6 +46,9 @@ function callDayOfWeek() {
   } else if (dob !== 0 && female === true) {
 
     document.querySelector(".results").innerHTML = "Wow! you were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + femaleNames[d] + "!";
+  } else if (dob === '' && male === true) {
+    document.querySelector(".results").innerHTML = "Please fill in all the details";
+
   } else {
     document.querySelector(".results").innerHTML = "Please fill in all the details";
   }
