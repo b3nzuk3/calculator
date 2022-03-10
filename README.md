@@ -17,7 +17,7 @@ https://b3nzuk3.github.io/omega-phase1/
 The site might have an update in the near future but as for now no challenges.
 ## Technologies Used
 1.HTML
-#2.CSS
+2.CSS
 3.Java Script
 
 The site was accomplished by incoperating the three languanges.
