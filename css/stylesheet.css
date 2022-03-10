@@ -1,10 +1,14 @@
 body {
   text-align: center;
-  background-color: #EFFFFD;
+  background-color: #fff;
+}
+
+section{
+  padding-bottom: 30px;
 }
 
 hr {
-  width: 65%;
+  width: 35%;
   padding: 1px;
   display: inline-block;
   margin-top: 40px;
@@ -19,12 +23,14 @@ h1 {
 }
 
 .tree-png {
-  height: 300px;
+  border-radius: 100%;
+  float: right;
+  height: 250px;
   width: 300px;
 }
 
 .t-heading {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 p {
@@ -68,6 +74,9 @@ h5 {
 }
 
 /* RESULTS */
+
+
+
 .results {
   color: #DE8971;
   font-family: 'Ubuntu', sans-serif;
@@ -95,5 +104,7 @@ h4 {
 
 /* FOOTER */
 footer {
+  background-color: #1B1A17;
+  color: #fff;
   padding: 15px 15px;
 }

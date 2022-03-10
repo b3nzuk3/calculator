@@ -39,16 +39,13 @@ function callDayOfWeek() {
   var male = document.querySelector("#male").checked;
   var female = document.querySelector("#female").checked;
 
-  if (dob !== 0 && male === true) {
+  if (dob !== "" && male === true) {
 
     document.querySelector(".results").innerHTML = "Wow! you were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + maleNames[d] + "!";
 
-  } else if (dob !== 0 && female === true) {
+  } else if (dob !== "" && female === true) {
 
     document.querySelector(".results").innerHTML = "Wow! you were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + femaleNames[d] + "!";
-  } else if (dob === '' && male === true) {
-    document.querySelector(".results").innerHTML = "Please fill in all the details";
-
   } else {
     document.querySelector(".results").innerHTML = "Please fill in all the details";
   }
