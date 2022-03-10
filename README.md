@@ -4,11 +4,13 @@
 ## Description
 This application or web app is a story telling one that takes its user to another dimension.
 ## Setup/Installation Requirements
-You just have to click on the web app link and all is done. No complications, just need to be able to read and complete the form.
+Once you access the Webpage, there's a brief description about the Akan names.
+The Calculator is just below, where the User will be required to fill a Form, to run the program.
+After this the day of the week they were born will be displayed just below together with their Akan name.
 ## Other Projects
-My first somewhat. Project alpha:
+1. Project alpha:
 https://github.com/b3nzuk3/project-alpha
-My second one:
+2. Project Omega-phase1:
 https://b3nzuk3.github.io/omega-phase1/
 
 ## Known Bugs
