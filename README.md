@@ -2,7 +2,7 @@
 #### This site is about the experience, Mar-07-2022
 #### By b3nzuk3
 ## Description
-This application or web app is a story telling one that takes its user to another dimension.
+his is a website that speaks about a beautiful Ghanian Culture. It has a built in calculator that can reference or give the user a Ghanian name based on the day of the week they were born.
 ## Setup/Installation Requirements
 Once you access the Webpage, there's a brief description about the Akan names.
 The Calculator is just below, where the User will be required to fill a Form, to run the program.
