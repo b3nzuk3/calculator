@@ -1,5 +1,5 @@
 # Akan simulator
-#### This site is about the experience, Mar-07-2022
+#### This site is a Ghanian Name simulator, Mar-07-2022
 #### By b3nzuk3
 ## Description
 his is a website that speaks about a beautiful Ghanian Culture. It has a built in calculator that can reference or give the user a Ghanian name based on the day of the week they were born.
@@ -16,7 +16,16 @@ https://b3nzuk3.github.io/omega-phase1/
 ## Known Bugs
 The site might have an update in the near future but as for now no challenges.
 ## Technologies Used
-HTML 5, CSS and Java script. All you see was accomplished by these three languages from its core unto it being brought live into user's eyes and hands.
+1.HTML
+2.CSS
+3.Java Script
+
+The site was accomplished by incoperating the three languanges.
+
+HTML - for the text content or anything written and visible to the user.
+CSS - for all the styling and beautiful colors displayed to the user.
+Java Script - used for all the business logic and technology that happens behind the scenes, this can be showed by the functionality of the Calculator and the results tab popping up.
+ 
 ## Support and contact details
 I've linked any and all means of communications at my second website which is about me.
 ### License
