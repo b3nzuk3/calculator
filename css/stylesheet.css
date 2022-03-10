@@ -3,7 +3,7 @@ body {
   background-color: #fff;
 }
 
-section{
+section {
   padding-bottom: 30px;
 }
 
@@ -32,6 +32,13 @@ h1 {
 .t-heading {
   padding-top: 40px;
 }
+
+.blue-b{
+height: 300px;
+width: 300px;
+
+}
+
 
 p {
   font-family: 'Ubuntu', sans-serif;
@@ -74,9 +81,6 @@ h5 {
 }
 
 /* RESULTS */
-
-
-
 .results {
   color: #DE8971;
   font-family: 'Ubuntu', sans-serif;
